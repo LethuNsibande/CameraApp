@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Camera App</string>
+    <string name="txt_btn_take_photo">Take a Photo</string>
+    <string name="txt_btn_open_gallery">Open Gallery</string>
+</resources>
