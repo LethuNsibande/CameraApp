@@ -1,4 +1,8 @@
 package com.example.cameraapp;
+/*
+Name: Nsibande Lethukuthula
+Student Number: 2018227377
+ */
 
 import android.os.Bundle;
 
@@ -37,6 +41,7 @@ public class CustomGalleryActivity extends AppCompatActivity {
         mViewPager.setAdapter(mViewPagerAdapter);
     }
 
+    // get images already saved
     public void getFromSdCard() {
         File file = new File(getExternalFilesDir(folderName), "/");
 

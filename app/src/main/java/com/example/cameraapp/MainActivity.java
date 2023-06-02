@@ -1,4 +1,8 @@
 package com.example.cameraapp;
+/*
+Name: Nsibande Lethukuthula
+Student Number: 2018227377
+ */
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -50,8 +54,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "AndroidCameraApi";
-    private AppCompatButton btnTake;
-    private AppCompatButton btnGallery;
+    private AppCompatButton btnTake, btnGallery, btnCustomers;
     private TextureView textureViewCamera;
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
 
@@ -84,8 +87,10 @@ public class MainActivity extends AppCompatActivity {
 
         if (textureViewCamera != null)
             textureViewCamera.setSurfaceTextureListener(textureListener);
+
         btnTake = findViewById(R.id.btnTake);
         btnGallery = findViewById(R.id.btnGallery);
+        btnCustomers = findViewById(R.id.btnCustomers);
 
         if (btnTake != null)
             btnTake.setOnClickListener(new View.OnClickListener() {
@@ -102,6 +107,13 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, CustomGalleryActivity.class));
                 }
             });
+
+        btnCustomers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, CustomersActivity.class));
+            }
+        });
     }
 
     TextureView.SurfaceTextureListener textureListener = new TextureView.SurfaceTextureListener() {

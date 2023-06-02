@@ -1,5 +1,15 @@
+<!--
+Name: Nsibande Lethukuthula
+Student Number: 2018227377
+-->
 <resources>
     <string name="app_name">Camera App</string>
     <string name="txt_btn_take_photo">Take a Photo</string>
     <string name="txt_btn_open_gallery">Open Gallery</string>
+    <string name="btn_open_sql_activity">Open SQL Activity</string>
+    <string name="txt_customer_name_hint">Customer Name</string>
+    <string name="txt_age_hint">Age</string>
+    <string name="lbl_active_customer">Active Customer</string>
+    <string name="btn_view_all">View All</string>
+    <string name="btn_add">Add</string>
 </resources>

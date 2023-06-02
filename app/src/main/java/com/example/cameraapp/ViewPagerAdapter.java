@@ -1,4 +1,8 @@
 package com.example.cameraapp;
+/*
+Name: Nsibande Lethukuthula
+Student Number: 2018227377
+ */
 
 import android.content.Context;
 import android.graphics.Bitmap;
